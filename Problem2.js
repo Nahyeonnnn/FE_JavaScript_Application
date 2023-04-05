@@ -8,3 +8,7 @@ let lionMoney = {
   주용: 2800,
   맑음: 50000,
 };
+
+for(let i in lionMoney){
+  alert(lionMoney[i]);
+}
