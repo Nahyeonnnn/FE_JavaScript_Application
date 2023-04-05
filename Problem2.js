@@ -8,7 +8,7 @@ let lionMoney = {
   주용: 2800,
   맑음: 50000,
 };
-
+let sum=0;
 for(let i in lionMoney){
-  alert(lionMoney[i]);
+  sum+=lionMoney[i];
 }
