@@ -12,3 +12,4 @@ let sum=0;
 for(let i in lionMoney){
   sum+=lionMoney[i];
 }
+alert(sum);
